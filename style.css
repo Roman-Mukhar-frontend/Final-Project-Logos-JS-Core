@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.window {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.time {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.timer {
+    padding: 20px 0;
+    font-size: 72px;
+    width: 100px;
+}
+
+.two-dots {
+    width: 25px;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: chocolate;
+    border-radius: 5px;
+    border: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.game-window {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 481.6px;
+    height: 481.6px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.puzzle {
+    width: 120px;
+    height: 120px;
+    background: url(img/img.jpg);
+    background-size: 480px;
+    background-repeat: no-repeat;
+}
+
+.one {
+    background-position: 0 0;
+}
+
+.two {
+    background-position: -120px 0;
+
+}
+
+.three {
+    background-position: -240px 0;
+}
+
+.four {
+    background-position: -360px 0;
+}
+
+.five {
+    background-position: 0 -120px;
+}
+
+.six {
+    background-position: -120px -120px;
+}
+
+.seven {
+    background-position: -240px -120px;
+}
+
+.eight {
+    background-position: -360px -120px;
+}
+
+.nine {
+    background-position: 0 -240px;
+}
+
+.ten {
+    background-position: -120px -240px;
+}
+
+.eleven {
+    background-position: -240px -240px;
+}
+
+.twelve {
+    background-position: -360px -240px;
+}
+
+.thirteen {
+    background-position: 0 -360px;
+}
+
+.fourteen {
+    background-position: -120px -360px;
+}
+
+.fifteen {
+    background-position: -240px -360px;
+}
+
+.sixteen {
+    background-position: -360px -360px;
+}
+
+.block {
+    width: 120px;
+    height: 120px;
+}
+
+.modal {
+    width: 600px;
+    height: 200px;
+    background-color: rgba(245, 245, 220, 0.898);
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 470px;
+}
+
+.warning {
+    height: 150px;
+    padding: 20px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.btn-block {
+    background-color: burlywood;
+}
+
+.hide {
+    display: none;
+}
